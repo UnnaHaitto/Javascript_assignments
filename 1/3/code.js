@@ -6,6 +6,6 @@ let sum = number1 + number2 + number3;
 let product = number1 * number2 * number3;
 let average = sum / 3;
 
-document.querySelector("#show").innerHTML = "Summa " + sum + " tulo " + product + " keskiarvo " + average;
+let trueAverage = Math.round(average);
 
-
+document.querySelector("#show").innerHTML = "Summa " + sum + " tulo " + product + " keskiarvo " + trueAverage;
