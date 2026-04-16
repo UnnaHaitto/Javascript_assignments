@@ -1,4 +1,4 @@
-let number1 = +prompt("Anna numero 1");
+let number1 = +prompt("Anna numero 5");
 let number2 = +prompt("Anna numero 2");
 let number3 = +prompt("Anna numero 3");
 
